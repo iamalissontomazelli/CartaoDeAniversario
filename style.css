@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
 body {
   display: flex;
   align-items: center;
@@ -78,7 +80,7 @@ body {
 
 .bday {
   position: relative;
-  font-family: arial;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   text-align: center;
   top: 163px;
@@ -231,10 +233,10 @@ body {
 .cardInside {
   position: absolute;
   background-color: #fff;
-  width: 250px;
+  width: 260px;
   height: 350px;
   z-index: -1;
-  left: 0;
+  left: 2;
   top: 0;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
 }
@@ -247,12 +249,13 @@ body {
 
 .wishes {
   position: relative;
-  top: -100px;
+  padding: 5px;
+  top: -150px;
   margin: 25px;
 }
 
 p {
-  font-family: "Brush Script MT";
+  font-family: "Poppins", sans-serif;
   color: #333;
 }
 
